@@ -841,6 +841,7 @@
 
 .Gym , .Cardio , .Yoga , .Time , .Martial , .Zumba
 {
+    text-transform: uppercase;
     font-weight: bold;
     padding-top: 9px;
 }
