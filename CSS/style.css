@@ -674,13 +674,14 @@
 /* Section 7 */
 .Section_7
 {
-    background-color: aqua;
-    height: 1000px;
     width: 100%;
+    height: 1500px;
     padding-top: 30px;
+    padding-bottom: 40px;
 }
 
-.section_7Container div:nth-child(1)
+
+.section_7Container div:nth-child(1) , .s8ConDiv1
 {
     padding-top: 30px;
     text-align: center;
@@ -688,7 +689,7 @@
 
 .section_7Container div:nth-child(1) h2
 {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 40px;
 }
 
@@ -702,11 +703,20 @@
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#S7ConNthCh2
+{
+
+    width: 80%;
+    margin: auto;
 }
 
 .teamDiv
 {
     position: relative;
+    margin-top: 30px;
 }
 
 .teamDiv i
@@ -753,8 +763,9 @@
     margin: auto;
     position: absolute;
     top: 85%;
-    right: 6.8%;
+    right: 6.5%;
     padding-top: 20px;
+    text-align: center;
 }
 
 .zxzx h6
@@ -767,10 +778,111 @@
     color: white;
     font-size: 25px;
     transition: all 0.5s;
+    text-decoration: none;
 }
 
 .zxzx a:hover
 {
     color: #FFC702;
     text-decoration: none;
+}
+
+/* Section 8 */
+
+.section_8
+{
+    padding-top: 30px;
+    background-color: aqua;
+    width: 100%;
+    height: 1000px;
+    background-image: url(../images/h1_bg_time.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s8ConDiv1 p
+{
+    color: #999999;
+}
+
+.s8ConDiv1 h2
+{
+    font-weight: 900;
+}
+
+.s8ConDiv2
+{
+    width: 80%;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.s8ConDiv2Table
+{
+    text-align: center;
+    margin: auto;
+}
+
+.s8ConDiv2Table tr th
+{
+    background-color: #181818;
+    border: 1px solid #999999;
+    border-top: none;
+    padding: 10px;
+}
+
+.s8ConDiv2Table tr td
+{
+    width: 140px;
+    height: 90px;
+}
+
+.Gym , .Cardio , .Yoga , .Time , .Martial , .Zumba
+{
+    font-weight: bold;
+    padding-top: 9px;
+}
+
+.Gym
+{
+   color: rgb(255, 199, 2) ;  
+}
+
+.Cardio
+{
+    color: rgb(255, 122, 25)
+}
+
+.Yoga
+{
+    color: rgb(32, 255, 158)
+}
+
+.s8ConDiv2Table td
+{
+    line-height: 12px;
+}
+
+.tableP
+{
+    color: #999999;
+    font-size: 14px;
+}
+
+/* 
+.Emp
+{
+    color: chartreuse;
+} */
+
+.Martial
+{
+    color: rgb(255, 32, 32)
+}
+
+.Zumba
+{
+    color: rgb(252, 84, 171)
 }
