@@ -1060,9 +1060,7 @@
 
 .section_10
 {
-    background-color: aqua;
     width: 100%;
-    height: 1000px;
 }
 
 .s10Container
@@ -1085,8 +1083,6 @@
 .s10conDiv2
 {
     width: 40%;
-    height: 600px;
-    background-color: greenyellow;
 }
 
 .s10ConD1Div1
@@ -1138,10 +1134,44 @@
     margin-bottom: 30px;
 }
 
+.s10Carosel
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: whitesmoke;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s10contContent2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.heightAndWidthImgEdit
+{
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+.heightAndWidthImgEdit:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
 /* Footer */
 
 .myFooter
 {
+    padding-top: 30px;
     background-color: black;
     width: 100%;
     background-image: url(../images/footer_overlay.png);

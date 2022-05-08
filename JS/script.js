@@ -14,7 +14,6 @@ function myFunction()
     console.log(BMI);
     document.getElementById("BMI").innerHTML = BMI;
     document.getElementById("section_6ContainerDiv3").style.visibility="visible";
-        
 }
 
 
